@@ -27,6 +27,8 @@ Check out the live version here: [Number Guessing Game](https://bebijayeeni.gith
 ## 🤝 Contributions:
 Feel free to fork this repository and contribute!
 
-## 🪪 License
-
+## 🪪 License:
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## 🔭 Contact:
+For any questions or feedback, please reach out to me via `GitHub`.
