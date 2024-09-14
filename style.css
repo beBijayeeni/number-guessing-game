@@ -1,0 +1,211 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #e2e8f0;
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: auto;
+    align-self: start;
+  }
+  
+  #container {
+    width: 750px;
+    height: 900px;
+    background-color: white;
+    align-self: start;
+  }
+  
+  form {
+    display: flex;
+    margin: 10px 0;
+    width: 750px;
+    align-self: start;
+    color: #e2e8f0;
+  }
+  
+  #submitButton {
+    width: 110px;
+    height: 56px;
+    color: #fff;
+    background-color: #f6ad55;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
+    border-style: none;
+    margin-left: 10px;
+    align-self: start;
+  }
+  
+  #submitButton:hover {
+    background-color: #e3e3e3;
+    width: 110px;
+    align-self: start;
+  }
+  
+  #submitButton:disabled {
+    background-color: #e2e8f0;
+    width: 110px;
+    align-self: start;
+  }
+  
+  #guessField {
+    color: #000;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    font-size: 45px;
+    border: 3px solid black;
+    text-align: center;
+  }
+  
+  #guessField:disabled {
+    background-color: #e2e8f0;
+    border-color: #c1c0c0;
+    align-self: start;
+  }
+  
+  #guess {
+    font-size: 30px;
+    color: black;
+    width: 250px;
+    align-self: start;
+  }
+  
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    color: #fff;
+    font-size: 25px;
+    background-color: white;
+  }
+  
+  h1 {
+    width: 750px;
+    background-color: #f6ad55;
+    color: #fff;
+    font-size: 30px;
+    text-align: centre;
+  }
+  
+  #explanation {
+    width: 750px;
+    background: white;
+    align-self: start;
+  }
+  
+  #p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 750px;
+  }
+  
+  #newGame {
+    cursor: pointer;
+    font-size: 30px;
+    text-align: centre;
+    width: 750px;
+    color: #000;
+  }
+  
+  #newGame:hover {
+    background-color: #e3e3e3;
+    width: 750px;
+    align-self: start;
+  }
+  
+  .circleArea {
+    width: 750px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-self: start;
+  }
+  
+  .answerCircleArea {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    align-items: center;
+  }
+  
+  .guessCircleArea {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    align-items: center;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 50%;
+    transition: width 0.5s ease, height 0.5s ease;
+    background-color: aqua;
+  }
+  
+  #answerCircle {
+    background-color: black;
+    align-self: start;
+  }
+  
+  #guessCircle {
+    background-color: red;
+    align-self: start;
+  }
+
+  .resultParas {
+    background-color: #f7fafc; /* Light background to highlight results */
+    border: 2px solid #cbd5e0; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add space inside the box */
+    margin-top: 20px; /* Space between result section and other elements */
+    text-align: center; /* Center the text */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    color: #2d3748; /* Dark text for readability */
+  }
+  
+  .resultParas p {
+    font-size: 18px; /* Slightly larger font for readability */
+    margin-bottom: 10px; /* Space between each paragraph */
+  }
+  
+  .guesses, .lastResult {
+    font-weight: bold; /* Bold important information */
+    color: #f56565; /* Use a red color to emphasize */
+  }
+  
+  .guessingResult {
+    font-size: 24px; /* Larger font for the main result message */
+    color: #2b6cb0; /* Use a blue color to grab attention */
+    font-weight: bold;
+    margin-top: 15px; /* Space above the guessing result */
+    align-self: start;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100px;           /* Adjust height as needed */
+    text-align: center;
+  }  
+
+  .guessingResult h1 {
+    font-size: 24px; /* Adjust the size of the message */
+    margin: 0;       /* Remove default margin */
+  }
+  
