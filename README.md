@@ -19,5 +19,8 @@ A simple and interactive **Number Guessing Game** built with HTML, CSS, and Java
 ## 📲 Live Demo:
 Check out the live version here: [Number Guessing Game](https://bebijayeeni.github.io/number-guessing-game/)
 
+![numberGuessing](https://github.com/user-attachments/assets/e59a8de0-61a1-4cfc-9ef2-f25658b0c08e)
+
+
 ## 🤝 Contributions:
 Feel free to fork this repository and contribute!
